@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animesh Mukhjerjee - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Animesh Mukherjee
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          bat@wayneenterprises.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class ="topmenu" href = "#skills"> Skills</a>
+          <a class ="topmenu" href = "#projects"> Projects</a>
+          <a class = "topmenu" href = "#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://cdn.pixabay.com/photo/2024/01/15/11/36/batman-8510026_1280.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Vengeance! <img src="https://cdn.pixabay.com/photo/2014/10/05/23/24/halloween-475932_1280.png" width = "60px">
+             <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+
+          </h1>
+          <p>
+            Philanthropist by day, vigilante by night.<br>
+            Got the city as a legacy, protecting it as a guardian.<br>
+            You're welcome, Gotham.<br>
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://cdn.pixabay.com/photo/2016/01/07/16/45/batman-1126127_1280.jpg"/>
+          <h6>Inspriring Children</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://cdn.pixabay.com/photo/2021/02/04/18/40/batman-5982258_1280.png"/>
+          <h6>Stopping burglary</h6>
+          <p>10 years experience</p>
+        </div>  
+        <div class = "skill">
+            <img src = "https://cdn.pixabay.com/photo/2023/03/14/22/00/joker-7853247_1280.jpg">
+            <h6>Catching the Joker</h6>
+            <p>5 years experience</p>
+        </div>
+        <div class="skill">
+            <img src="https://cdn.pixabay.com/photo/2019/11/15/21/25/tank-4629329_1280.jpg">
+            <h6>Building cars</h6>
+            <p>6 years experience</p>
+        </div>
+        <div class="skill">
+            <img src = "https://cdn.pixabay.com/photo/2020/02/09/23/23/boom-4834847_1280.png">
+            <h6>Featuring in Comics</h6>
+            <p>86 years experience(First appearance 1939 DC #27)</p>
+        </div>
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Formed the Justice League</h3>
+            <ul>
+              <li>Bringing together heroes like Superman, Wonder Woman, and others to protect the world.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Built the Batcave</h3>
+            <ul>
+              <li>
+                Creating a hidden base of operations with advanced technology and resources.
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Taught and mentored</h3>
+            <ul>
+              <li>Several sidekicks, including Robin, Batgirl, and more, shaping them into formidable heroes.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Comissioner Gordon - Because he's the hero Gotham deserves, but not the one it needs right now. So we'll hunt him... because he can take it.
+           Because he's not our hero. He's a silent guardian, 
+           a watchful protector. A dark knight.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Superman - This isn't a man who can be reasoned with. This is a man who's spent his whole life trying to protect Gotham, no matter the cost.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Alfred - Because he's not a hero. He's a silent guardian, a watchful protector. A dark knight.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
